@@ -27,6 +27,11 @@ body {
     background-size: cover;
 }
 
+.container-custom {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
 }
