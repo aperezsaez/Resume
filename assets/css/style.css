@@ -1,0 +1,97 @@
+:root {
+    --fontHeading:'PT Sans', sans-serif;
+    --fontPharagraph: 'Open Sans', sans-serif;
+
+    --grey: #212925;
+    --primary: #2c2a2f;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fontPharagraph);
+    color: var(--primary);
+    font-size: 1.6rem;
+    line-height: 2;
+    background-image: url("../images/bg-image.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.heading-font {
+    font-family: var(--fontHeading);
+}
+
+strong {
+    color: var(--grey);
+}
+
+hr {
+    max-width: 70%;
+    color: var(--grey);
+    margin: 2rem auto;
+}
+
+.main-aboutMe {
+    -webkit-box-shadow: 2px 0px 14px 10px rgba(0,0,0,0.35);
+    box-shadow: 2px 0px 14px 10px rgba(0,0,0,0.35);
+    border-radius: 1rem;
+    background: #fff;
+}
+
+.main-aboutMe-list {
+    font-size: 1.3rem;
+    margin: 1.5rem;
+    padding: 0;
+    text-align: left;
+}
+
+.main-aboutMe-list-icons {
+    display: flex;
+    gap: 10px;
+    align-items: left;
+}
+
+.pill-icon {
+    border: 2px solid #d3d3d3d3;
+    color: #d3d3d3d3;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 0.5rem;
+    border-radius: 20%;
+}
+
+.max-height {
+    max-height: 73rem;
+}
+
+.profile h4,
+.experience h4,
+.education h4,
+.main-skills h4 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-aboutMe-info-list {
+    float:left;
+    margin:0 5px;
+}
+
+.main-aboutMe-info-icons {
+    display: flex;
+    gap: 10px;
+    align-items: left;
+}
